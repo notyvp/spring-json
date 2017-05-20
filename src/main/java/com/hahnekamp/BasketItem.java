@@ -7,9 +7,12 @@ import com.hahnekamp.json.BasketItemSerializer;
 
 /**
  * Created by rainerh on 07.11.16.
+ *
+ * If you want to use serialization by annotation you have to uncomment the two annotations
+ * below and comment the @Service in BasketItemJsonModule.
  */
-//@JsonDeserialize(using = BasketItemDeserializer.class)
-//@JsonSerialize(using = BasketItemSerializer.class)
+@JsonDeserialize(using = BasketItemDeserializer.class)
+@JsonSerialize(using = BasketItemSerializer.class)
 public class BasketItem {
   private String product;
   private String code;

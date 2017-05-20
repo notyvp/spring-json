@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.hahnekamp</groupId>
-	<artifactId>customjackson</artifactId>
+	<artifactId>spring-json</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>customjackson</name>
-	<description>Demo project for Spring Boot</description>
+	<name>spring-json</name>
+	<description>Spring MVC with customized json serialization</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
