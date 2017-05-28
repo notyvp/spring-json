@@ -11,8 +11,8 @@ import com.hahnekamp.json.BasketItemSerializer;
  * If you want to use serialization by annotation you have to uncomment the two annotations
  * below and comment the @Service in BasketItemJsonModule.
  */
-@JsonDeserialize(using = BasketItemDeserializer.class)
-@JsonSerialize(using = BasketItemSerializer.class)
+//@JsonDeserialize(using = BasketItemDeserializer.class)
+//@JsonSerialize(using = BasketItemSerializer.class)
 public class BasketItem {
   private String product;
   private String code;
